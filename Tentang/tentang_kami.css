@@ -1,0 +1,42 @@
+.bg_tentang{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100vh;
+}
+
+.tentang_title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.tentang_web{
+    background-color: rgba(175, 174, 174, 0.281);
+    height: 850px;
+    margin-top: 50px;
+}
+.tentang_web h2{
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.tentang_web img{
+    height: 200px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tentang_web p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-indent: 50px;
+}
+
+
+.desc{
+    margin-top: -40px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-size: 12px;
+}

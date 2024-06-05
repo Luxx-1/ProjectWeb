@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+.bg_home {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 200vh;
+}
+
+.container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 80px;
+}
+
+.logo_fifa {
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.title_home {
+    color: white;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.navlink {
+    margin-left: 550px;
+    margin-top: 27px;
+    color: white;
+}
+
+.navlink li {
+    display: inline;
+}
+
+
+.drop{
+    display: inline;
+}
+.juara{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.isi_juara{
+    display:none;
+    background-color: rgba(0, 0, 0, 0.705);
+    position:absolute;
+    margin-top: 1px;
+    margin-left: 50px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 20px 20px 10px 5px;
+    z-index: 1;
+}
+.isi_juara a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.isi_juara2{
+    display:none;
+    background-color: rgba(0, 0, 0, 0.705);
+    position:absolute;
+    margin-top: 1px;
+    margin-left: 172px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 20px 20px 10px 5px;
+    z-index: 1;
+}
+.isi_juara2 a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.navlink li select{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.navlink li select option{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.navlink a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+
+/* MAIN */
+
+.banner_main {
+    position: relative;
+}
+
+.banner_main img {
+    width:100%;
+}
+
+.banner_main h1 {
+    background-color: rgba(0, 0, 0, 0.692);
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.banner_main p {
+    background-color: rgba(0, 0, 0, 0.692);
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+
+
+
+.main h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+.paragraph_1_wc {
+    background-color: rgba(0, 0, 0, 0.096);
+    padding: 15px;
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.paragraph_1_wc p {
+    text-indent: 50px;
+}
+
+
+
+/* FOOTER */
+.footer_main {
+    background-color: black;
+    height: 50px;
+    margin-top: 150px;
+    color: white;
+}
+
+.copy {
+    padding-top: 5px;
+}
+
+.copy p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+
+.drop:hover .isi_juara{display: block;}
+.drop:hover .isi_juara2{display: block;}
+.isi_juara a:hover{color: rgb(61, 255, 245);}
+.navlink li a:hover {color: rgb(61, 255, 245);}
+.juara:hover{color: rgb(61, 255, 245);}
+.isi_juara2 a:hover{color: rgb(61, 255, 245);}

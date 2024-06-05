@@ -1,0 +1,91 @@
+.bg_kontak {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100vh;
+}
+
+.main_kontak{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 125px;
+}
+
+.box_kontak_1{
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 15px;
+    height: 300px;
+    width: 1225px;
+    padding-top: 80px;
+    padding-left: 25px;
+}
+.box_kontak_1 i{
+    color: white;
+    margin-left: 15px;
+    padding-top: 0px;
+}
+
+.media{
+    margin-left: 10px;
+}
+.media i{
+    margin-right: 5px;
+}
+.kontak_open{
+    font-size: 25px;
+}
+
+
+.ig{
+    color: white;
+    display: inline;
+    margin-left: 1px;
+}
+.ig-1{
+    margin-left: 340px;
+}
+.ig-2{
+    margin-left: 20px;
+}
+
+
+.git{
+    color: white;
+    position: absolute;
+    margin-left: 530px;
+    margin-top: -75px;
+    display: inline;
+}
+.git-1{
+    color: white;
+    margin-left: 650px;
+    margin-top: -75px;
+}
+
+
+.mail{
+    color: white;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -75px;
+    display: inline;
+}
+.mail-1{
+    color: white;
+    margin-left: 910px;
+    margin-top: -55px;
+}
+
+
+.media li{
+    color: white;
+    display: inline;
+}
+
+.quotes{
+    color: white;
+    margin-top: 120px;
+}
+.name{
+    margin-top: -10px;
+}
